@@ -1,0 +1,28 @@
+
+
+
+.imgContainer{
+    height: 360px;
+    width: 340px;
+    border-radius: 200px;
+    margin-left: 1%;
+    margin-top: 30%;
+}
+
+.homepageContainerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+hr{
+    border: 1px solid #000000;
+}
+
+.homepageHeaderContainer{
+    margin-top: 5%;
+}
+
+.headerContent{
+    color: #ffffff;
+}

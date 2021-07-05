@@ -1,0 +1,43 @@
+
+
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    color: #5cac9e;
+    text-decoration: none;
+}
+
+.nameContainer{
+    width: 200px;
+    margin-left: 1%;
+    margin-bottom: 7%;
+}
+
+
+.linkContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 15%;
+}
+
+.navbarLi{
+    margin-left: 20%;
+}
+
+.navLinks{
+    color: #5cac9e;
+    font-weight: 600;
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 3%;
+}

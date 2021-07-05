@@ -1,0 +1,16 @@
+.resumeBtn{
+    margin-left: 45%;
+    margin-top: 10%;
+    height: 5.6vh;
+    width: 12.445vw;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.linkResume{
+    color: #0e836d;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}

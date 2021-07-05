@@ -1,0 +1,40 @@
+
+
+
+.aboutComponentContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMeHeader{
+    color: #ffffff;
+}
+
+.pAbout{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.spanName{
+    color: #0e836d;
+}
+
+.aboutMe{
+    margin: 7%;
+    margin-left: 5%;
+}
+
+.checkbox{
+    color: #ffffff;
+    margin-bottom: -5px;
+}
+
+.coder{
+    height: 56vh;
+    width: 36.6vw;
+    border-radius: 8px;
+    margin: 12%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
