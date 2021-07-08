@@ -1,0 +1,20 @@
+
+
+
+.contactsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.contactHeader{
+    color: #ffffff;
+    margin-left: 10%;
+}
+
+.contactsPTags{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}

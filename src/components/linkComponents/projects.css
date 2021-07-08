@@ -1,0 +1,68 @@
+
+
+
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 20% ;
+}
+
+.projectsHeader{
+    color: #ffffff;
+    margin-left: 40%;
+}
+
+.iconProjectHeader{
+    margin-right: 15px;
+}
+
+.aCard{
+    height: 48vh;
+    width: 25.62vw;
+    margin-left: 4%;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+
+.cards{
+    height: 48vh;
+    width: 25.62vw;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+
+.cardContainer{
+    display: flex;
+    margin-top: 4%;
+}
+
+#finAppImage{
+    background-image: url("financeapp.jpg");
+    background-size: 25.62vw 52vh;
+}
+
+#todoImage{
+    background-image: url("todolist.jpg");
+    background-size: 25.62vw 49vh;
+}
+
+#arnologyImage{
+    background-image: url("arnology.png");
+    background-size: 25.62vw 49vh;
+}
+
+#searchAppImage{
+    background-image: url("searchcountry.jpg");
+    background-size: 25.62vw 49vh;
+}
+
+.projectsLink{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 25%;
+}

@@ -5,7 +5,6 @@ import Homepage from "../layout/homepage";
 import About from  "../linkComponents/about";
 import Projects from "../linkComponents/projects";
 import Resume from "../linkComponents/resume";
-import Career from "../linkComponents/career";
 import Contacts from "../linkComponents/contacts";
 
 import {Switch,Route,Link} from "react-router-dom";
@@ -31,10 +30,7 @@ export default function Navbar(){
                   <Link to="/resume" className="navLinks">Resume</Link>
                 </li>
                 <li className="navbarLi">
-                  <Link to="/career" className="navLinks">Career</Link>
-                </li>
-                <li className="navbarLi">
-                  <Link to="/contacts" className="navLinks">Contacs</Link>
+                  <Link to="/contacts" className="navLinks">Contacts</Link>
                 </li>
               </ul>
             </nav>
@@ -50,9 +46,6 @@ export default function Navbar(){
               </Route>
               <Route path="/resume">
                 <Resume/>
-              </Route>
-              <Route path="/career">
-                <Career/>
               </Route>
               <Route path="/contacts">
                 <Contacts/>
