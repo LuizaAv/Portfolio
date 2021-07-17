@@ -7,7 +7,10 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import HomeIcon from '@material-ui/icons/Home';
 
 
+
 export default function Contacts(){
+
+
     return(
         <div className="contactsContainer">
             <h1 className="contactHeader"><ContactMailIcon className="iconHeader"/> Here is my contacts</h1>
@@ -15,6 +18,8 @@ export default function Contacts(){
             <p className="contactsPTags"><PhoneIcon className="tickIcon"/>Mobile number: +37498550027, +37499716240
             </p>
             <p className="contactsPTags"><HomeIcon className="tickIcon"/>Address - 24 home 20 str., Nor - Aresh, Yerevan, Armenia</p>
+            <div>
+            </div>
         </div>
     )
 }

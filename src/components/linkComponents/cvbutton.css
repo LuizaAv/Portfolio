@@ -8,6 +8,12 @@
     background-color: #ffffff;
 }
 
+.resumeBtn:hover{
+    background-color: #78e2cddc;
+    height: 5.85vh;
+    width: 12.7vw;
+}
+
 .linkResume{
     color: #0e836d;
     text-decoration: none;

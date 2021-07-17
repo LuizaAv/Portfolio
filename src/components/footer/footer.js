@@ -18,16 +18,16 @@ export default function Footer(){
                     <p className="pTagFooter">Copyright  <CopyrightIcon className="imgFooter"/> 2021</p>
                 </div>
                 <div className="socialPagesIconContainer">
-                    <a href="https://github.com/luizaAv" className="socialPagesIcon">
+                    <a href="https://github.com/luizaAv" className="socialPagesIcon" target="_blank">
                         <GitHubIcon />
                     </a>
-                    <a href="https://www.linkedin.com/in/luiza-avetisyan-7038aa17b/" className="socialPagesIcon">
+                    <a href="https://www.linkedin.com/in/luiza-avetisyan-7038aa17b/" className="socialPagesIcon" target="_blank">
                         <LinkedInIcon />
                     </a>
-                    <a href="https://www.instagram.com/louisa_avetisyan/" className="socialPagesIcon">
+                    <a href="https://www.instagram.com/louisa_avetisyan/" className="socialPagesIcon" target="_blank">
                         <InstagramIcon />
                     </a>
-                    <a href="https://www.facebook.com/luiza.avetisyan" className="socialPagesIcon">
+                    <a href="https://www.facebook.com/luiza.avetisyan" className="socialPagesIcon" target="_blank">
                         <FacebookIcon/>
                     </a>
                 </div>

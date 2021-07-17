@@ -16,6 +16,11 @@
     text-decoration: none;
 }
 
+.name:hover{
+    font-size: 25px;
+    color: cornsilk;
+}
+
 .nameContainer{
     width: 200px;
     margin-left: 1%;
@@ -40,4 +45,9 @@
     list-style-type: none;
     text-decoration: none;
     margin-bottom: 3%;
+}
+
+.navLinks:hover{
+    color: cornsilk;
+    font-size: 17px;
 }

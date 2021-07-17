@@ -20,10 +20,10 @@ export default function Projects(){
                         target="_blank"
                         className="projectsLink"
                         >
-                        Financial App</a>
+                        Financial App
+                        <Card className="aCard" id="finAppImage" ></Card>
+                        </a>
                     </Typography>
-                    <Card className="aCard" id="finAppImage" >
-                    </Card>
                 </div>
                 <div className="cards">
                     <Typography>
@@ -31,10 +31,10 @@ export default function Projects(){
                         target="_blank"
                         className="projectsLink"
                         >
-                        Todo App With Hooks</a>
+                        Todo App With Hooks
+                        <Card className="aCard" id="todoImage" ></Card>
+                        </a>
                     </Typography>
-                    <Card className="aCard" id="todoImage" >
-                    </Card>
                 </div>
                 <div className="cards">
                     <Typography>
@@ -42,10 +42,10 @@ export default function Projects(){
                         target="_blank"
                         className="projectsLink"
                         >
-                        Arnology Site Demo</a>
+                        Arnology Site Demo
+                        <Card className="aCard" id="arnologyImage" ></Card>
+                        </a>
                     </Typography>
-                    <Card className="aCard" id="arnologyImage" >
-                    </Card>
                 </div>
             </div>
             <div className="cardContainer">
@@ -55,10 +55,21 @@ export default function Projects(){
                         target="_blank"
                         className="projectsLink"
                         >
-                        Country Search App</a>
+                        Country Search App
+                        <Card className="aCard" id="searchAppImage" ></Card>
+                        </a>
                     </Typography>
-                    <Card className="aCard" id="searchAppImage" >
-                    </Card>
+                </div>
+                <div className="cards">
+                    <Typography>
+                        <a href="https://luizaav.github.io/Portfolio/"
+                        target="_blank"
+                        className="projectsLink"
+                        >
+                        Portfolio
+                        <Card className="aCard" id="portfolioImage" ></Card>
+                        </a>
+                    </Typography>
                 </div>
             </div>
         </div>

@@ -14,6 +14,11 @@
     margin-left: 40%;
 }
 
+.projectsHeader:hover{
+    color: #0e836d;
+    font-size: 34px;
+}
+
 .iconProjectHeader{
     margin-right: 15px;
 }
@@ -33,6 +38,15 @@
     margin-right: 3%;
 }
 
+.aCard:hover{
+    height: 52vh;
+    width: 27vw;
+}
+
+.cards{
+    height: 52vh;
+    width: 27vw;
+}
 
 .cardContainer{
     display: flex;
@@ -44,9 +58,17 @@
     background-size: 25.62vw 52vh;
 }
 
+#finAppImage:hover{
+    background-size: 27vw 57vh;
+}
+
 #todoImage{
     background-image: url("todolist.jpg");
     background-size: 25.62vw 49vh;
+}
+
+#todoImage:hover{
+    background-size: 27vw 52vh;
 }
 
 #arnologyImage{
@@ -54,9 +76,26 @@
     background-size: 25.62vw 49vh;
 }
 
+#arnologyImage:hover{
+    background-size: 27vw 52vh;
+}
+
 #searchAppImage{
     background-image: url("searchcountry.jpg");
     background-size: 25.62vw 49vh;
+}
+
+#searchAppImage:hover{
+    background-size: 27vw 52vh;
+}
+
+#portfolioImage{
+    background-image: url("portfolio.jpg");
+    background-size: 25.62vw 49vh;
+}
+
+#portfolioImage:hover{
+    background-size: 27vw 52vh;
 }
 
 .projectsLink{
@@ -65,4 +104,9 @@
     font-size: 18px;
     font-weight: 700;
     margin-left: 25%;
+}
+
+.projectsLink:hover{
+    color: #0e836d;
+    font-size: 19px;
 }

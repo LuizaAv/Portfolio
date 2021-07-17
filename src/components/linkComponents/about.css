@@ -16,8 +16,21 @@
     font-weight: 500;
 }
 
+
 .spanName{
     color: #0e836d;
+    margin-right: 5px;
+}
+
+.linkLouise{
+    color: #0e836d;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.linkLouise:hover{
+    text-decoration: underline;
 }
 
 .aboutMe{
@@ -28,6 +41,11 @@
 .checkbox{
     color: #ffffff;
     margin-bottom: -5px;
+}
+
+.favThings:hover{
+    color: #0e836d;
+    font-size: 20.5px;
 }
 
 .coder{

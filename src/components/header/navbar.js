@@ -16,7 +16,7 @@ export default function Navbar(){
             <nav className="navbar">
               <div className="nameContainer">
                 <h1>
-                  <Link to="/" className="name" >Louise Avetisyan</Link>
+                  <Link to="/Portfolio" className="name" >Louise Avetisyan</Link>
                 </h1>
               </div>
               <ul className="linkContainer">
@@ -35,7 +35,7 @@ export default function Navbar(){
               </ul>
             </nav>
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/Portfolio">
                 <Homepage/>
               </Route>
               <Route path="/about">

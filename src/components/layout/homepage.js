@@ -1,7 +1,7 @@
 import React from "react"
 import "./homepage.css"
 
-import profpic from "../../assets/mee.jpg"
+import profpic from "../../assets/meee.jpg"
 
 export default function Homepage(){
     return(
