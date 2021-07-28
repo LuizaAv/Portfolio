@@ -82,14 +82,14 @@
 
 @media only screen and (max-width: 719px){
     .headers{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .period{
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .place{
-        font-size: 15px;
+        font-size: 14px;
     }
 }

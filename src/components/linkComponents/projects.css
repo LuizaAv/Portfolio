@@ -177,7 +177,7 @@
 @media only screen and (max-width: 719px){
     .projectsHeader{
         font-size: 18px;
-        margin-top: 8%;
+        margin-top: 18%;
     }
 
     .cardContainer{
@@ -187,11 +187,11 @@
     }
     
     .projectsLink{
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .cards{
-        margin-top: 10px;
+        margin-top: 20px;
     }
 }
 

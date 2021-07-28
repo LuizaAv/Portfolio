@@ -8,11 +8,6 @@
     background-color: #ffffff;
 }
 
-.resumeBtn:hover{
-    background-color: #78e2cddc;
-    height: 5.85vh;
-    width: 12.7vw;
-}
 
 .linkResume{
     color: #0e836d;
@@ -35,11 +30,11 @@
 @media only screen and (max-width: 719px){
     .resumeBtn{
         height: 4.4vh;
-        width: 14vw;
-        margin-top: 15%;
+        width: 16vw;
+        margin-top: 25%;
     }
 
     .linkResume{
-        font-size: 10px;
+        font-size: 8px;
     }
 }

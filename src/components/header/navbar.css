@@ -89,12 +89,12 @@
     .name{
         color: #5cac9e;
         text-decoration: none;
-        font-size: small;
+        font-size: 10px;
         margin-left: 5%;
     }
 
     .name:hover{
-        font-size: 12px;
+        font-size: 11px;
         color: cornsilk;
     }
 
@@ -105,13 +105,18 @@
 
     .navbarLi{
         margin-left: 90%;
-        font-size: smaller;
+        font-size: 11px;
         margin-left: 8%;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     .linkContainer{
         margin-right: 12%;
         margin-top: 4%;
+    }
+
+    .navLinks:hover{
+        color: cornsilk;
+        font-size: 12px;
     }
 }

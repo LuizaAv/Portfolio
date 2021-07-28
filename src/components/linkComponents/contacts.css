@@ -33,11 +33,12 @@
     }
 
     .contactHeader{
-        font-size: 20px;
+        font-size: 17px;
         margin-left: 20%;
+        margin-top: 10%;
     }
 
     .contactsPTags{
-        font-size: 16px;
+        font-size: 15px;
     }
 }
