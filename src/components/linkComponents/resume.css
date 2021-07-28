@@ -86,14 +86,10 @@
     }
 
     .period{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .place{
-        font-size: 14px;
-    }
-
-    .headers{
         font-size: 15px;
     }
 }
