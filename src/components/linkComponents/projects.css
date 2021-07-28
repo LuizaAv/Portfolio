@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 15%;
     margin-bottom: 20% ;
 }
 
@@ -104,11 +104,11 @@
     font-size: 18px;
     font-weight: 700;
     margin-left: 25%;
+    margin-bottom: 5px;
 }
 
 .projectsLink:hover{
     color: #0e836d;
-    font-size: 19px;
 }
 
 @media screen and (max-width: 1080px) and (min-width: 720px){
@@ -177,13 +177,13 @@
 @media only screen and (max-width: 719px){
     .projectsHeader{
         font-size: 18px;
-        margin-top: 18%;
+        margin-top: 25%;
     }
 
     .cardContainer{
         display: flex;
         flex-direction: column;
-        margin-left: 35%;
+        margin-left: 27%;
     }
     
     .projectsLink{
@@ -191,7 +191,38 @@
     }
 
     .cards{
-        margin-top: 20px;
+        margin-top: 30px;
+        height: 35vh;
+        width: 40vw;
+    }
+
+    .aCard{
+        height: 35vh;
+        width: 40vw;
+    }
+
+    #finAppImage{
+        background-size: 35vw 40vh;
+    }
+
+    #todoImage{
+        background-size: 38vw 38vh;
+    }
+
+    #arnologyImage{
+        background-size: 37vw 36vh;
+    }
+
+    #searchAppImage{
+        background-size: 40vw 35vh;
+    }
+
+    #portfolioImage{
+        background-size: 40vw 35vh;
+    }
+
+    #finAppImage:hover{
+        pointer-events: none;
     }
 }
 
