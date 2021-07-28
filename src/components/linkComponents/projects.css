@@ -110,3 +110,88 @@
     color: #0e836d;
     font-size: 19px;
 }
+
+@media screen and (max-width: 1080px) and (min-width: 720px){
+    .projectsHeader{
+        font-size: 20px;
+        margin-top: 10%;
+    }
+
+    .projectsLink{
+        font-size: 14px;
+        margin-left: 20%;
+    }
+
+    .cards{
+        height: 30vh;
+        width: 30vw;
+    }
+
+    .aCard{
+        height: 25vh;
+        width: 25vw;
+    }
+
+    .projectsHeader:hover{
+        font-size: 10px;
+    }
+
+    #finAppImage{
+        background-size: 25vw 28vh;
+    }
+
+    #todoImage{
+        background-size: 25vw 25vh;
+    }
+
+    #arnologyImage{
+        background-size: 25vw 25vh;
+    }
+
+    #searchAppImage{
+        background-size: 25vw 25vh;
+    }
+
+    #portfolioImage{
+        background-size: 25vw 25vh;
+    }
+
+    #finAppImage:hover{
+        pointer-events: none;
+    }
+    #todoImage:hover{
+        pointer-events: none;
+    }
+    #arnologyImage:hover{
+        pointer-events: none;
+    }
+    #searchAppImage:hover{
+        pointer-events: none;
+    }
+    #portfolioImage:hover{
+        pointer-events: none;
+    }
+}
+
+
+@media only screen and (max-width: 719px){
+    .projectsHeader{
+        font-size: 18px;
+        margin-top: 18%;
+    }
+
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 35%;
+    }
+    
+    .projectsLink{
+        font-size: 11px;
+    }
+
+    .cards{
+        margin-top: 20px;
+    }
+}
+

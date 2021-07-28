@@ -74,3 +74,26 @@
 .CVbtnContainer{
     margin-bottom: 15%;
 }
+
+.projectsHeader{
+    font-size: 18px;
+    margin-top: 8%;
+}
+
+@media only screen and (max-width: 719px){
+    .headers{
+        font-size: 18px;
+    }
+
+    .period{
+        font-size: 14px;
+    }
+
+    .place{
+        font-size: 14px;
+    }
+
+    .headers{
+        font-size: 15px;
+    }
+}

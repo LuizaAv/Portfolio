@@ -2,8 +2,8 @@
 
 
 .imgContainer{
-    height: 400px;
-    width: 350px;
+    height: 64vh;
+    width: 25.6vw;
     border-radius: 200px;
     margin-left: 1%;
     margin-top: 30%;
@@ -27,4 +27,47 @@ hr{
     font-size: 50px;
     color: cornsilk;
     font-family: Dancing Script;
+}
+
+
+@media screen and (max-width: 1080px) and (min-width: 720px){
+    .homepageContainerDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgContainer{
+        height: 25vh;
+        width: 28vw;
+        margin-top: 20%;
+        margin-left: 35%;
+    }
+    .headerContent{
+        font-size: 40px;
+        margin-left: 27%;
+    }
+
+    hr{
+        width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    .homepageContainerDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgContainer{
+        height: 25vh;
+        width: 28vw;
+        margin-top: 22%;
+        margin-left: 35%;
+    }
+    .headerContent{
+        font-size: 30px;
+        margin-left: 27%;
+    }
+
+    hr{
+        width: 40vw;
+    }
 }

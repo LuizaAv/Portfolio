@@ -20,3 +20,26 @@
     font-size: 16px;
     font-weight: 600;
 }
+
+@media screen and (max-width: 1080px) and (min-width: 720px){
+    .resumeBtn{
+        height: 4vh;
+        width: 12.445vw;
+    } 
+    
+    .linkResume{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 719px){
+    .resumeBtn{
+        height: 4.4vh;
+        width: 14vw;
+        margin-top: 20%;
+    }
+
+    .linkResume{
+        font-size: 10px;
+    }
+}

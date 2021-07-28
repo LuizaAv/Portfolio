@@ -4,6 +4,7 @@ import "./homepage.css"
 import profpic from "../../assets/meee.jpg"
 
 export default function Homepage(){
+
     return(
         <div className="homepageContainerDiv">
             <div >

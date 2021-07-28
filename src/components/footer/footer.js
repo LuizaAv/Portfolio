@@ -11,11 +11,13 @@ export default function Footer(){
     return(
         <div className="footerContainer">
             <footer className="footer">
-                <div>
-                    <p className="pTagFooter">Developed and Designed by Louise Avetisyan</p>
-                </div>
-                <div>
-                    <p className="pTagFooter">Copyright  <CopyrightIcon className="imgFooter"/> 2021</p>
+                <div className="footerTagsContainer">
+                    <div>
+                        <p className="pTagFooter">Developed and Designed by Louise Avetisyan</p>
+                    </div>
+                    <div>
+                        <p className="pTagFooter">Copyright  <CopyrightIcon className="imgFooter"/> 2021</p>
+                    </div>
                 </div>
                 <div className="socialPagesIconContainer">
                     <a href="https://github.com/luizaAv" className="socialPagesIcon" target="_blank">

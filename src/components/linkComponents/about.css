@@ -56,3 +56,35 @@
     margin-top: 10%;
     margin-right: 5%;
 }
+
+@media screen and (max-width: 1080px) and (min-width: 720px){
+    .aboutMe{
+        margin-top: 10%;
+    }
+
+    .coder{
+        height: 35vh;
+        width: 40vw;
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 719px){
+    .aboutMe{
+        margin-top: 18%;
+    }
+
+    .aboutMeHeader{
+        font-size: 20px;
+    }
+
+    .pAbout{
+        font-size: 14px;
+    }
+
+    .coder{
+        height: 40vh;
+        width: 36.6vw;
+        margin-top: 22%;
+    }
+}

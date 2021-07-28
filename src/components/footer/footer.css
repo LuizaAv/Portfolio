@@ -40,3 +40,32 @@
     margin-left: 20%;
 }
 
+
+@media only screen and (max-width: 719px){
+    .footerTagsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pTagFooter{
+        font-size: 12px;
+        margin-top: 1%;
+    }
+
+    .imgFooter{
+        height: 12px;
+        width: 12px;
+        margin-top: 3%;
+    }
+
+    .socialPagesIcon{
+        color: #5cac9e;
+        margin-left: 25%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .socialPagesIconContainer{
+        margin-right: 17%;
+    }
+}
