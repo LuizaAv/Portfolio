@@ -64,7 +64,7 @@ export default function Resume(){
             </div>
             <div className="volunteerAndPublications">
                 <div className="volunteerContainer">
-                    <h2 className="headers"><EmojiPeopleIcon className="iconHeader"/>Volunteer Experience</h2>
+                    <h2 className="headers"><EmojiPeopleIcon className="iconHeader"/>Volunteering Experience</h2>
                     <p className="period"><CheckCircleRoundedIcon className="tickIcon"/> 2014-2015</p>
                     <p className="place"><span className="placeSpan">«EVOCABANK CJSC» / previous «Prometey Bank LTD»</span>
                     <br/>
